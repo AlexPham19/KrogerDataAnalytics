@@ -1,0 +1,7 @@
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\KrogerDataAnalytics.exe
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\KrogerDataAnalytics.dll
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\KrogerDataAnalytics.deps.json
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\KrogerDataAnalytics.runtimeconfig.json
+C:\Users\phamq\source\repos\KrogerDataAnalytics\KrogerDataAnalytics\obj\Release\net8.0\PubTmp\Out\KrogerDataAnalytics.pdb
