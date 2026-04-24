@@ -24,8 +24,12 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXNoYm9hcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/DataLoad.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xEYXRhTG9hZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Error.razor]
@@ -36,8 +40,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Routes.razor]
@@ -46,6 +50,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Pages/Dashboard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Pages/DataLoad.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YUxvYWQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Pages/SearchPulls.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHVsbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Layout/MainLayout.razor]

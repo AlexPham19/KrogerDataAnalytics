@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("e4b43343-a185-4dcf-87fd-33deb4a6a1ce")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03e6c1477cddcce5bd93008a0343d8cad08345c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
