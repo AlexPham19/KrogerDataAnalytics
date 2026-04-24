@@ -1,5 +1,41 @@
-﻿<h3>Component</h3>
+﻿@page "/login"
+@using KrogerDataAnalytics.Components.Models
+@inject NavigationManager NavManager
+
+<div class="container mt-5" style="max-width: 400px;">
+    <div class="card shadow">
+        <div class="card-body">
+            <h3 class="card-title text-center">Login</h3>
+
+            @* Added FormName="loginForm" and set method="post" for SSR *@
+            <EditForm Model="@loginUser" OnValidSubmit="HandleLogin" FormName="loginForm" method="post">
+                <div class="mb-3">
+                    <label class="form-label">Username</label>
+                    <InputText class="form-control" @bind-Value="loginUser.Username" placeholder="Enter username" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <InputText class="form-control" @bind-Value="loginUser.Email" placeholder="name@example.com" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Password</label>
+                    <InputText type="password" class="form-control" @bind-Value="loginUser.Password" placeholder="Password" />
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Sign In</button>
+            </EditForm>
+        </div>
+    </div>
+</div>
 
 @code {
 
+    [SupplyParameterFromForm]
+    private LoginModel loginUser { get; set; } = new();
+
+    private async Task HandleLogin()
+    {
+        // logic for login
+        NavManager.NavigateTo($"/welcome/{loginUser.Username}");
+    }
+}
 }
