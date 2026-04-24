@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\components\\layout\\datapull.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\service\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\service\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|solutionrelative:krogerdataanalytics\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F95FB47-EDDA-48E3-B26B-FDAB0C07D797}|KrogerDataAnalytics\\KrogerDataAnalytics.csproj|c:\\users\\phamq\\source\\repos\\krogerdataanalytics\\krogerdataanalytics\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,23 +62,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "DataPull.razor",
+              "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
+              "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
+              "ToolTip": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
+              "RelativeToolTip": "KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
+              "ViewState": "AgIAALIAAAAAAAAAAAArwLsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-24T03:32:10.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Service\\DataService.cs",
+              "RelativeDocumentMoniker": "KrogerDataAnalytics\\Service\\DataService.cs",
+              "ToolTip": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Service\\DataService.cs",
+              "RelativeToolTip": "KrogerDataAnalytics\\Service\\DataService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T04:21:03.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Context\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Context\\AppDbContext.cs",
               "RelativeToolTip": "KrogerDataAnalytics\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T03:48:23.498Z"
+              "WhenOpened": "2026-04-24T03:48:23.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Routes.razor",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Routes.razor",
@@ -86,20 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DataPull.razor",
-              "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
-              "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
-              "ToolTip": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
-              "RelativeToolTip": "KrogerDataAnalytics\\Components\\Layout\\DataPull.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-24T03:32:10.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Program.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Program.cs",
@@ -111,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\App.razor",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\App.razor",
@@ -123,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\_Imports.razor",
@@ -135,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Transaction.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Models\\Transaction.cs",
@@ -147,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Models\\Product.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Models\\Product.cs",
@@ -159,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Home.razor",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Pages\\Home.razor",
@@ -171,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Pages\\Login.razor",
@@ -183,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "LoginModel.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Models\\LoginModel.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Models\\LoginModel.cs",
@@ -195,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "JoinedTransaction.cs",
               "DocumentMoniker": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\Components\\Models\\JoinedTransaction.cs",
               "RelativeDocumentMoniker": "KrogerDataAnalytics\\Components\\Models\\JoinedTransaction.cs",

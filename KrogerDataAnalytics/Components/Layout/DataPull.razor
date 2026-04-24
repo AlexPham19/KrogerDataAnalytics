@@ -1,4 +1,4 @@
-﻿@page "/datapull5"
+﻿@page "/"
 @using KrogerDataAnalytics.Components.Models
 @using KrogerDataAnalytics.Service
 @inject DataService DataService
@@ -6,7 +6,7 @@
 
 <div class="container-fluid p-4">
     <div class="text-center mb-4">
-        <h1 class="fw-bold" style="color: #6a1b9a;">EXAMPLE DATA PULL FOR HH #0010</h1>
+        <h1 class="fw-bold" style="color: #6a1b9a;">EXAMPLE DATA PULL FOR HH # @_searchQuery</h1>
         <div class="d-flex justify-content-center gap-2 align-items-center bg-light p-2 rounded shadow-sm mx-auto" style="max-width: 400px;">
             <span class="text-muted fw-bold">Sort by:</span>
 
@@ -20,6 +20,15 @@
                 <option value="Department">Department</option>
                 <option value="Commodity">Commodity</option>
             </select>
+        </div>
+        <div class="d-flex justify-content-center gap-3 align-items-center bg-light p-3 rounded shadow-sm mx-auto mb-3" style="max-width: 600px;">
+            <div class="input-group input-group-sm">
+                <span class="input-group-text bg-primary text-white"><i class="bi bi-search"></i> HH #</span>
+                <input type="text" class="form-control border-primary"
+                       placeholder="Search Household..."
+                       value="@_searchQuery"
+                       @onchange="HandleSearchChange" />
+            </div>            
         </div>
         <hr style="border-top: 3px solid #f06292; opacity: 1; width: 90%; margin: 15px auto;" />
     </div>
@@ -127,48 +136,70 @@
     }
 </style>
 @code {
-    private List<JoinedTransaction>? joinedResults;
+    private List<JoinedTransaction>? _allResults; // The "Master" list
+    private List<JoinedTransaction>? joinedResults; // The "Display" list
+
     private string _selectedSort = "Hshd_num";
+    private string _searchQuery = "10";
+
+    private string SearchQuery
+    {
+        get => _searchQuery;
+        set
+        {
+            _searchQuery = value;
+        }
+    }
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            joinedResults = await DataService.GetDataPullAsync(10);
-            SortData(_selectedSort);
+            _allResults = await DataService.GetDataPullAsync(10);
+
+            await ApplyFilters();
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Error: {ex.Message}");
+            _allResults = new List<JoinedTransaction>();
             joinedResults = new List<JoinedTransaction>();
         }
     }
+    private async Task HandleSearchChange(ChangeEventArgs e)
+    {
+        _searchQuery = e.Value?.ToString() ?? _searchQuery;
+        await ApplyFilters();
+    }
 
-    // New explicit handler for the dropdown change
     private async Task HandleSortChange(ChangeEventArgs e)
     {
         _selectedSort = e.Value?.ToString() ?? "Hshd_num";
-        await SortData(_selectedSort);
+        await ApplyFilters();
     }
 
-    private async Task SortData(string sortBy)
+    private async Task ApplyFilters()
     {
-        if (joinedResults == null) return;
+        _allResults = await DataService.GetDataPullAsync(int.Parse(SearchQuery));
 
-        // Perform the sort and assign a new reference
-        joinedResults = sortBy switch
+        if (_allResults == null) return;
+
+        // 1. Start with the full list
+        var filtered = _allResults.AsEnumerable();        
+
+        // 3. Apply Sorting
+        filtered = _selectedSort switch
         {
-            "Basket_num" => joinedResults.OrderBy(x => x.Basket_num).ToList(),
-            "Date" => joinedResults.OrderBy(x => x.Date).ToList(),
-            "Product_num" => joinedResults.OrderBy(x => x.Product_num).ToList(),
-            "Department" => joinedResults.OrderBy(x => x.Department).ToList(),
-            "Commodity" => joinedResults.OrderBy(x => x.Commodity).ToList(),
-            _ => joinedResults.OrderBy(x => x.Hshd_num).ToList()
+            "Basket_num" => filtered.OrderBy(x => x.Basket_num),
+            "Date" => filtered.OrderBy(x => x.Date),
+            "Product_num" => filtered.OrderBy(x => x.Product_num),
+            "Department" => filtered.OrderBy(x => x.Department),
+            "Commodity" => filtered.OrderBy(x => x.Commodity),
+            _ => filtered.OrderBy(x => x.Hshd_num)
         };
 
-        // Note: In an event handler like HandleSortChange,
-        // StateHasChanged is actually called automatically by Blazor,
-        // but keeping it doesn't hurt.
+        // 4. Update the Display list
+        joinedResults = filtered.ToList();
         StateHasChanged();
     }
 }
