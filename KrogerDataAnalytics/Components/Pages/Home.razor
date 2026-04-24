@@ -4,10 +4,110 @@
     <div class="display-4">Welcome, @UserName!</div>
     <p class="lead text-muted">You have successfully logged in.</p>
     <hr />
-    <a href="/" class="btn btn-outline-secondary btn-sm">Logout</a>
+    <!-- Pull data -->
+    @page "/datapull"
+@using KrogerDataAnalytics.Components.Models
+
+<div class="container-fluid p-4">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold" style="color: #6a1b9a;">EXAMPLE DATA PULL FOR HH #0010</h1>
+        <p class="lead">Linking the <span style="color: #9c27b0;">household</span>, <span style="color: #00bcd4;">transaction</span>, and <span style="color: #ffeb3b; background-color: #444; padding: 2px 5px;">products</span> tables</p>
+        <hr style="border-top: 3px solid #f06292; opacity: 1; width: 80%; margin: auto;" />
+    </div>
+
+    <div class="table-responsive mt-4">
+        <table class="table table-sm table-bordered custom-table">
+            <thead>
+                <tr>
+                    <th>Hshd_num</th>
+                    <th>Basket_num</th>
+                    <th>Date</th>
+                    <th>Product_num</th>
+                    <th>Department</th>
+                    <th>Commodity</th>
+                    <th>Spend</th>
+                    <th>Units</th>
+                    <th>Store_region</th>
+                    <th>Week_num</th>
+                    <th>Year</th>
+                    <th>Loyalty_flag</th>
+                    <th>Age_range</th>
+                    <th>Marital_status</th>
+                    <th>Income_range</th>
+                    <th>Homeowner_desc</th>
+                    <th>Hshd_composition</th>
+                    <th>Hshd_size</th>
+                    <th>Children</th>
+                </tr>
+            </thead>
+            <tbody>
+                    @foreach (var item in sampleResults)
+                    {
+                        <tr>
+                            <td class="id-col">@item.Hshd_num</td>
+                            <td class="trans-col">@item.Basket_num</td>
+                            <td class="trans-col">@item.Date.ToShortDateString()</td>
+                            <td class="trans-col">@item.Product_num</td>
+                            <td class="prod-col">@item.Department</td>
+                            <td class="prod-col">@item.Commodity</td>
+                            <td class="trans-col">$@item.Spend</td>
+                            <td class="trans-col">@item.Units</td>
+                            <td class="trans-col">@item.Store_region</td>
+                            <td class="trans-col">@item.Week_num</td>
+                            <td class="trans-col">@item.Year</td>
+                            <td class="hh-col">@item.Loyalty_flag</td>
+                            <td class="hh-col">@item.Age_range</td>
+                            <td class="hh-col">@item.Marital_status</td>
+                            <td class="hh-col">@item.Income_range</td>
+                            <td class="hh-col">@item.Homeowner_desc</td>
+                            <td class="hh-col">@item.Hshd_composition</td>
+                            <td class="hh-col">@item.Hshd_size</td>
+                            <td class="hh-col">@item.Children</td>
+                        </tr>
+                    }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .custom-table thead th {
+        background-color: #6a1b9a;
+        color: white;
+        font-size: 0.8rem;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .custom-table td {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    /* Color coding row groups based on source */
+    .id-col { background-color: #f3e5f5; font-weight: bold; }
+    .trans-col { background-color: #e0f7fa; }
+    .prod-col { background-color: #fff9c4; }
+    .hh-col { background-color: #fce4ec; }
+</style>
+
+    
 </div>
 
 @code {
     [Parameter]
     public string UserName { get; set; } = "Guest";
+
+    private List<JoinedTransaction> sampleResults = new();
+
+    protected override void OnInitialized()
+    {
+        // Mocking the data pull for Household #10
+        sampleResults = new List<JoinedTransaction>
+        {
+            new JoinedTransaction { Basket_num = 055122, Date = new DateTime(2019, 05, 12), Product_num = 0325, Department = "Food", Commodity = "Snacks", Spend = 4.50, Units = 2, Store_region = "East", Week_num = 20, Year = 2019, Loyalty_flag = true, Age_range = "35-44", Marital_status = "M", Income_range = "80-100K", Homeowner_desc = "Y", Hshd_composition = "Family", Hshd_size = 4, Children = "2" },
+            new JoinedTransaction { Basket_num = 055122, Date = new DateTime(2019, 05, 12), Product_num = 1204, Department = "Food", Commodity = "Baby", Spend = 12.99, Units = 1, Store_region = "East", Week_num = 20, Year = 2019, Loyalty_flag = true, Age_range = "35-44", Marital_status = "M", Income_range = "80-100K", Homeowner_desc = "Y", Hshd_composition = "Family", Hshd_size = 4, Children = "2" },
+            new JoinedTransaction { Basket_num = 067812, Date = new DateTime(2019, 08, 15), Product_num = 0684, Department = "Non-Food", Commodity = "Cleaning", Spend = 8.25, Units = 1, Store_region = "East", Week_num = 33, Year = 2019, Loyalty_flag = true, Age_range = "35-44", Marital_status = "M", Income_range = "80-100K", Homeowner_desc = "Y", Hshd_composition = "Family", Hshd_size = 4, Children = "2" }
+        };
+    }
 }

@@ -1,0 +1,142 @@
+﻿@page "/datapull5"
+@using KrogerDataAnalytics.Components.Models
+@using KrogerDataAnalytics.Service
+@inject DataService DataService
+
+<div class="container-fluid p-4">
+    <div class="text-center mb-4">
+        <h1 class="fw-bold" style="color: #6a1b9a;">EXAMPLE DATA PULL FOR HH #0010</h1>
+        <p class="lead">Linking the <span style="color: #9c27b0;">household</span>, <span style="color: #00bcd4;">transaction</span>, and <span style="color: #d4af37;">products</span> tables</p>
+        <hr style="border-top: 3px solid #f06292; opacity: 1; width: 90%; margin: auto;" />
+    </div>
+
+    @if (joinedResults == null)
+    {
+        <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+            <div class="spinner-border text-primary" role="status"></div>
+            <span class="ms-3">Fetching sorted records from Azure...</span>
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive shadow-sm border rounded">
+            <table class="table table-sm table-bordered mb-0 custom-data-table">
+                <thead>
+                    <tr>
+                        <th>Hshd_num</th>
+                        <th>Basket_num</th>
+                        <th>Date</th>
+                        <th>Product_num</th>
+                        <th>Department</th>
+                        <th>Commodity</th>
+                        <th>Spend</th>
+                        <th>Units</th>
+                        <th>Store_region</th>
+                        <th>Week_num</th>
+                        <th>Year</th>
+                        <th>Loyalty_flag</th>
+                        <th>Age_range</th>
+                        <th>Marital_status</th>
+                        <th>Income_range</th>
+                        <th>Homeowner_desc</th>
+                        <th>Hshd_composition</th>
+                        <th>Hshd_size</th>
+                        <th>Children</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var row in joinedResults)
+                    {
+                        <tr>
+                            <td class="col-hh-id">@row.Hshd_num.ToString().PadLeft(4, '0')</td>
+                            <td class="col-trans">@row.Basket_num</td>
+                            <td class="col-trans">@row.Date.ToString("MM/dd/yyyy")</td>
+                            <td class="col-trans">@row.Product_num</td>
+                            <td class="col-prod">@row.Department</td>
+                            <td class="col-prod">@row.Commodity</td>
+                            <td class="col-trans fw-bold">@row.Spend.ToString("F2")</td>
+                            <td class="col-trans">@row.Units</td>
+                            <td class="col-trans">@row.Store_region</td>
+                            <td class="col-trans">@row.Week_num</td>
+                            <td class="col-trans">@row.Year</td>
+                            <td class="col-hh-demo">@row.Loyalty_flag</td>
+                            <td class="col-hh-demo">@row.Age_range</td>
+                            <td class="col-hh-demo">@row.Marital_status</td>
+                            <td class="col-hh-demo">@row.Income_range</td>
+                            <td class="col-hh-demo">@row.Homeowner_desc</td>
+                            <td class="col-hh-demo">@row.Hshd_composition</td>
+                            <td class="col-hh-demo">@row.Hshd_size</td>
+                            <td class="col-hh-demo">@row.Children</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+
+<style>
+    .custom-data-table thead th {
+        background-color: #6a1b9a;
+        color: white;
+        font-size: 0.7rem;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #ffffff44;
+        padding: 8px 4px;
+    }
+
+    .custom-data-table td {
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 4px;
+        border: 1px solid #dee2e6;
+    }
+
+    /* Column Grouping Colors */
+    .col-hh-id {
+        background-color: #4a148c;
+        color: white;
+        font-weight: bold;
+    }
+
+    .col-trans {
+        background-color: #e0f7fa;
+        color: #006064;
+    }
+    /* Cyan: Transaction */
+    .col-prod {
+        background-color: #fff9c4;
+        color: #827717;
+    }
+    /* Yellow: Product */
+    .col-hh-demo {
+        background-color: #fce4ec;
+        color: #880e4f;
+    }
+    /* Pink: Household */
+
+    .table-responsive {
+        max-height: 70vh;
+        overflow-y: auto;
+    }
+</style>
+@code {
+    private List<JoinedTransaction>? joinedResults;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // 1. Calls the DataService which executes the SQL JOIN in Azure
+        // 2. Filters for HSHD_NUM #10
+        try
+        {
+            joinedResults = await DataService.GetDataPullAsync(10);
+        }
+        catch (Exception ex)
+        {
+            // Handle connection/SQL errors
+            Console.WriteLine($"Error: {ex.Message}");
+            joinedResults = new List<JoinedTransaction>();
+        }
+    }
+}
