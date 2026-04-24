@@ -2,19 +2,33 @@
 @using KrogerDataAnalytics.Components.Models
 @using KrogerDataAnalytics.Service
 @inject DataService DataService
+@rendermode InteractiveServer
 
 <div class="container-fluid p-4">
     <div class="text-center mb-4">
         <h1 class="fw-bold" style="color: #6a1b9a;">EXAMPLE DATA PULL FOR HH #0010</h1>
-        <p class="lead">Linking the <span style="color: #9c27b0;">household</span>, <span style="color: #00bcd4;">transaction</span>, and <span style="color: #d4af37;">products</span> tables</p>
-        <hr style="border-top: 3px solid #f06292; opacity: 1; width: 90%; margin: auto;" />
+        <div class="d-flex justify-content-center gap-2 align-items-center bg-light p-2 rounded shadow-sm mx-auto" style="max-width: 400px;">
+            <span class="text-muted fw-bold">Sort by:</span>
+
+            <select class="form-select form-select-sm w-auto border-primary"
+                    value="@_selectedSort"
+                    @onchange="HandleSortChange">
+                <option value="Hshd_num">Hshd_num</option>
+                <option value="Basket_num">Basket_num</option>
+                <option value="Date">Date</option>
+                <option value="Product_num">Product_num</option>
+                <option value="Department">Department</option>
+                <option value="Commodity">Commodity</option>
+            </select>
+        </div>
+        <hr style="border-top: 3px solid #f06292; opacity: 1; width: 90%; margin: 15px auto;" />
     </div>
 
     @if (joinedResults == null)
     {
-        <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+        <div class="text-center mt-5">
             <div class="spinner-border text-primary" role="status"></div>
-            <span class="ms-3">Fetching sorted records from Azure...</span>
+            <p>Loading records from Azure...</p>
         </div>
     }
     else
@@ -81,62 +95,80 @@
         color: white;
         font-size: 0.7rem;
         text-align: center;
-        vertical-align: middle;
         border: 1px solid #ffffff44;
-        padding: 8px 4px;
     }
 
-    .custom-data-table td {
-        font-size: 0.75rem;
-        text-align: center;
-        padding: 4px;
-        border: 1px solid #dee2e6;
-    }
-
-    /* Column Grouping Colors */
     .col-hh-id {
-        background-color: #4a148c;
-        color: white;
-        font-weight: bold;
+        background-color: #4a148c !important;
+        color: #ffffff !important;
+        font-weight: 800;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
 
     .col-trans {
         background-color: #e0f7fa;
         color: #006064;
     }
-    /* Cyan: Transaction */
+
     .col-prod {
         background-color: #fff9c4;
         color: #827717;
     }
-    /* Yellow: Product */
+
     .col-hh-demo {
         background-color: #fce4ec;
         color: #880e4f;
     }
-    /* Pink: Household */
 
-    .table-responsive {
-        max-height: 70vh;
-        overflow-y: auto;
+    .custom-data-table td {
+        font-size: 0.72rem;
+        text-align: center;
+        border: 1px solid #dee2e6;
     }
 </style>
 @code {
     private List<JoinedTransaction>? joinedResults;
+    private string _selectedSort = "Hshd_num";
 
     protected override async Task OnInitializedAsync()
     {
-        // 1. Calls the DataService which executes the SQL JOIN in Azure
-        // 2. Filters for HSHD_NUM #10
         try
         {
             joinedResults = await DataService.GetDataPullAsync(10);
+            SortData(_selectedSort);
         }
         catch (Exception ex)
         {
-            // Handle connection/SQL errors
             Console.WriteLine($"Error: {ex.Message}");
             joinedResults = new List<JoinedTransaction>();
         }
+    }
+
+    // New explicit handler for the dropdown change
+    private async Task HandleSortChange(ChangeEventArgs e)
+    {
+        _selectedSort = e.Value?.ToString() ?? "Hshd_num";
+        await SortData(_selectedSort);
+    }
+
+    private async Task SortData(string sortBy)
+    {
+        if (joinedResults == null) return;
+
+        // Perform the sort and assign a new reference
+        joinedResults = sortBy switch
+        {
+            "Basket_num" => joinedResults.OrderBy(x => x.Basket_num).ToList(),
+            "Date" => joinedResults.OrderBy(x => x.Date).ToList(),
+            "Product_num" => joinedResults.OrderBy(x => x.Product_num).ToList(),
+            "Department" => joinedResults.OrderBy(x => x.Department).ToList(),
+            "Commodity" => joinedResults.OrderBy(x => x.Commodity).ToList(),
+            _ => joinedResults.OrderBy(x => x.Hshd_num).ToList()
+        };
+
+        // Note: In an event handler like HandleSortChange,
+        // StateHasChanged is actually called automatically by Blazor,
+        // but keeping it doesn't hurt.
+        StateHasChanged();
     }
 }

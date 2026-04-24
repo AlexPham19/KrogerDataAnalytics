@@ -24,6 +24,10 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Layout/DataPull.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcRGF0YVB1bGwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/phamq/source/repos/KrogerDataAnalytics/KrogerDataAnalytics/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
