@@ -80,5 +80,35 @@ namespace KrogerDataAnalytics.Service
                               Children = h.Children
                           }).ToListAsync();
         }
+        
+        public async Task<List<Household>> GetAllHouseholdsAsync()
+        {
+            using var context = _dbFactory.CreateDbContext();
+
+            return await (context.Households.ToListAsync());
+        }
+        public async Task<List<Product>> GetAllProductsAsync()
+        {
+            using var context = _dbFactory.CreateDbContext();
+
+            return await (context.Products.ToListAsync());
+        }
+        public async Task<List<Transaction>> GetAllTransactionsAsync()
+        {
+            using var context = _dbFactory.CreateDbContext();
+
+            return await (context.Transactions.Select(x => new Transaction()
+            {
+                Spend = x.Spend,
+                Basket_num = x.Basket_num,
+                Hshd_num = x.Hshd_num,
+                Date = x.Date,
+                Product_num = x.Product_num,
+                Units = x.Units,
+                Store_region = x.Store_region,
+                Week_num = x.Week_num,
+                Year = x.Year
+            }).ToListAsync());
+        }
     }
 }

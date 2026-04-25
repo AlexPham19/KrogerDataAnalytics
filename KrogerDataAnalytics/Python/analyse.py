@@ -15,7 +15,7 @@ print(f"Target path for charts: {target_path}")
 open(f"{target_path}/myfile.txt", "w").close()
 
 # ===============================
-# 1. Load + Merge
+# 1. Load + Merge (yes, I don't have time to get data from SQLServer to Python, so I will just load from CSV)
 # ===============================
 df_households = pd.read_csv('8451_The_Complete_Journey_2_Sample-2/400_households.csv')
 df_products = pd.read_csv('8451_The_Complete_Journey_2_Sample-2/400_products.csv')
