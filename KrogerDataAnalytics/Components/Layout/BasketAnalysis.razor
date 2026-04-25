@@ -1,0 +1,89 @@
+﻿@page "/basket-analysis"
+
+@using KrogerDataAnalytics.Components.Models
+@using KrogerDataAnalytics.Service
+@inject BasketRuleService RuleService
+@inject IJSRuntime JS
+
+<h3>Basket Analysis</h3>
+
+<p>
+    This page shows commonly purchased product combinations using association rules.
+    Higher lift means the products are more strongly related.
+</p>
+
+@if (rules == null)
+{
+    <p>Loading...</p>
+}
+else if (!rules.Any())
+{
+    <p>No basket rules found. Check your CSV file path.</p>
+}
+else
+{
+    <h4>Top Rules Chart</h4>
+
+    <canvas id="basketChart" height="500"></canvas>
+
+    <hr />
+
+    <h4>Association Rules Table</h4>
+
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Antecedents</th>
+                <th>Consequents</th>
+                <th>Support</th>
+                <th>Confidence</th>
+                <th>Lift</th>
+                <th>Cross-Sell Meaning</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rule in rules.Take(50))
+            {
+                <tr>
+                    <td>@rule.Antecedents</td>
+                    <td>@rule.Consequents</td>
+                    <td>@rule.Support.ToString("P2")</td>
+                    <td>@rule.Confidence.ToString("P2")</td>
+                    <td>@rule.Lift.ToString("0.00")</td>
+                    <td>
+                        Customers who buy
+                        <b>@rule.Antecedents</b>
+                        are likely to also buy
+                        <b>@rule.Consequents</b>.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<BasketRule>? rules;
+
+    protected override void OnInitialized()
+    {
+        rules = RuleService.LoadRules();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender && rules != null && rules.Any())
+        {
+            await Task.Delay(200); // important
+
+            var topRules = rules.OrderByDescending(r => r.Lift).Take(15).ToList();
+
+            var labels = topRules.Select(r => $"{r.Antecedents} → {r.Consequents}").ToArray();
+            var liftData = topRules.Select(r => r.Lift).ToArray();
+            var confidenceData = topRules.Select(r => r.Confidence).ToArray();
+            var supportData = topRules.Select(r => r.Support).ToArray();
+
+            await JS.InvokeVoidAsync("renderBasketChart", labels, liftData, confidenceData, supportData);
+        }
+    }
+}

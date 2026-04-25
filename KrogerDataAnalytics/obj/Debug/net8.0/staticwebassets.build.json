@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "c29N8VQzO7bvxSCowPSFbUemjKTzCwtvvX8r7velbb0=",
+  "Hash": "uMrdBRENthJaFFE1X7Ob0uD+Ca4MwGsVZrUWqLPwvJE=",
   "Source": "KrogerDataAnalytics",
   "BasePath": "_content/KrogerDataAnalytics",
   "Mode": "Default",
@@ -122,6 +122,27 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\basket_association_rules.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "charts/basket_association_rules#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uij39w3kh6",
+      "Integrity": "aiEvswddjPGa+yh22/u8kmGLykPSTFWFXFVEoh0/Dts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charts\\basket_association_rules.csv"
+    },
+    {
       "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
       "SourceId": "KrogerDataAnalytics",
       "SourceType": "Discovered",
@@ -206,6 +227,48 @@
       "OriginalItemSpec": "wwwroot\\charts\\chart_feature_influence_to_brand.png"
     },
     {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_feature_importance.png",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "charts/churn_feature_importance#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7qlu6bi27k",
+      "Integrity": "gcQIKtdxMBfYBVGEF7Ziu0Skf3wCz7/A/72XHIVvHdQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charts\\churn_feature_importance.png"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_probability_distribution.png",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "charts/churn_probability_distribution#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6f2forr41e",
+      "Integrity": "As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charts\\churn_probability_distribution.png"
+    },
+    {
       "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
       "SourceId": "KrogerDataAnalytics",
       "SourceType": "Discovered",
@@ -227,6 +290,48 @@
       "OriginalItemSpec": "wwwroot\\charts\\myfile.txt"
     },
     {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "charts/top_association_rules#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iuvkqzl8e9",
+      "Integrity": "xgvCPHzMxIabmEjN8b670RNoZsSUiNJkUY20Ag4ZOpU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charts\\top_association_rules.png"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_cross_sell_drivers.png",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "charts/top_cross_sell_drivers#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7g6n2ygjwz",
+      "Integrity": "Z0rJMrG64CMKpkE1jaZt/t8aFPQjuP7a/WzdWjXxI8I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\charts\\top_cross_sell_drivers.png"
+    },
+    {
       "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\favicon.png",
       "SourceId": "KrogerDataAnalytics",
       "SourceType": "Discovered",
@@ -246,6 +351,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\basketChart.js",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "js/basketChart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qdb3tvskus",
+      "Integrity": "XjUEUGNQfKdXyQPNX8FMSepAJ/LifAF2N2Q7evvV1vE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\basketChart.js"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\chart.js",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "js/chart#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gef3zaap5m",
+      "Integrity": "SERKgtTty1vsDxll+qzd4Y2cF9swY9BCq62i9wXJ9Uo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\chart.js"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_confusion_matrix_report.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "reports/churn_confusion_matrix_report#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "spf71pfu72",
+      "Integrity": "sJ/KzCQo1wLKJIKOzjE76ypkgJAP4dGT5y5WvZmuarc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\churn_confusion_matrix_report.csv"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_feature_importance_report.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "reports/churn_feature_importance_report#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d8twz9rrw5",
+      "Integrity": "A208ewR3PJCkzBsacXWAAFaEvIfDpp195WhtfPxpCkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\churn_feature_importance_report.csv"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_household_risk_report.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "reports/churn_household_risk_report#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yvx30nausa",
+      "Integrity": "Tqr9wuzSsXdY3H+RXZHWRQswjnDlTTkWVxH9wOKLyC8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\churn_household_risk_report.csv"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_summary_report.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "reports/churn_summary_report#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zzrlu98r1n",
+      "Integrity": "/2K2FfpcbbMBUtf91cJfKCMf4Qphb/qx11t81ZyavWM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\churn_summary_report.csv"
+    },
+    {
+      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_top_20_at_risk_households.csv",
+      "SourceId": "KrogerDataAnalytics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
+      "BasePath": "_content/KrogerDataAnalytics",
+      "RelativePath": "reports/churn_top_20_at_risk_households#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hzd5js9k9z",
+      "Integrity": "87ZRGEk3yY/sJPNe1ZqA61mVY7rcWxpNXr9XQ5nvdJs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reports\\churn_top_20_at_risk_households.csv"
     }
   ],
   "Endpoints": [
@@ -492,6 +744,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "charts/basket_association_rules.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\basket_association_rules.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14252665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiEvswddjPGa+yh22/u8kmGLykPSTFWFXFVEoh0/Dts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiEvswddjPGa+yh22/u8kmGLykPSTFWFXFVEoh0/Dts="
+        }
+      ]
+    },
+    {
+      "Route": "charts/basket_association_rules.uij39w3kh6.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\basket_association_rules.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14252665"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aiEvswddjPGa+yh22/u8kmGLykPSTFWFXFVEoh0/Dts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uij39w3kh6"
+        },
+        {
+          "Name": "label",
+          "Value": "charts/basket_association_rules.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aiEvswddjPGa+yh22/u8kmGLykPSTFWFXFVEoh0/Dts="
         }
       ]
     },
@@ -824,6 +1158,170 @@
       ]
     },
     {
+      "Route": "charts/churn_feature_importance.7qlu6bi27k.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_feature_importance.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gcQIKtdxMBfYBVGEF7Ziu0Skf3wCz7/A/72XHIVvHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7qlu6bi27k"
+        },
+        {
+          "Name": "label",
+          "Value": "charts/churn_feature_importance.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gcQIKtdxMBfYBVGEF7Ziu0Skf3wCz7/A/72XHIVvHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "charts/churn_feature_importance.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_feature_importance.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gcQIKtdxMBfYBVGEF7Ziu0Skf3wCz7/A/72XHIVvHdQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gcQIKtdxMBfYBVGEF7Ziu0Skf3wCz7/A/72XHIVvHdQ="
+        }
+      ]
+    },
+    {
+      "Route": "charts/churn_probability_distribution.6f2forr41e.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_probability_distribution.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6f2forr41e"
+        },
+        {
+          "Name": "label",
+          "Value": "charts/churn_probability_distribution.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o="
+        }
+      ]
+    },
+    {
+      "Route": "charts/churn_probability_distribution.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_probability_distribution.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o="
+        }
+      ]
+    },
+    {
       "Route": "charts/myfile.5ipweew5fc.txt",
       "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
       "Selectors": [],
@@ -906,6 +1404,170 @@
       ]
     },
     {
+      "Route": "charts/top_association_rules.iuvkqzl8e9.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xgvCPHzMxIabmEjN8b670RNoZsSUiNJkUY20Ag4ZOpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iuvkqzl8e9"
+        },
+        {
+          "Name": "label",
+          "Value": "charts/top_association_rules.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xgvCPHzMxIabmEjN8b670RNoZsSUiNJkUY20Ag4ZOpU="
+        }
+      ]
+    },
+    {
+      "Route": "charts/top_association_rules.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xgvCPHzMxIabmEjN8b670RNoZsSUiNJkUY20Ag4ZOpU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xgvCPHzMxIabmEjN8b670RNoZsSUiNJkUY20Ag4ZOpU="
+        }
+      ]
+    },
+    {
+      "Route": "charts/top_cross_sell_drivers.7g6n2ygjwz.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_cross_sell_drivers.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z0rJMrG64CMKpkE1jaZt/t8aFPQjuP7a/WzdWjXxI8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7g6n2ygjwz"
+        },
+        {
+          "Name": "label",
+          "Value": "charts/top_cross_sell_drivers.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z0rJMrG64CMKpkE1jaZt/t8aFPQjuP7a/WzdWjXxI8I="
+        }
+      ]
+    },
+    {
+      "Route": "charts/top_cross_sell_drivers.png",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_cross_sell_drivers.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34796"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z0rJMrG64CMKpkE1jaZt/t8aFPQjuP7a/WzdWjXxI8I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 17:46:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z0rJMrG64CMKpkE1jaZt/t8aFPQjuP7a/WzdWjXxI8I="
+        }
+      ]
+    },
+    {
       "Route": "favicon.ifv42okdf2.png",
       "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\favicon.png",
       "Selectors": [],
@@ -984,6 +1646,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "js/basketChart.js",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\basketChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XjUEUGNQfKdXyQPNX8FMSepAJ/LifAF2N2Q7evvV1vE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 18:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XjUEUGNQfKdXyQPNX8FMSepAJ/LifAF2N2Q7evvV1vE="
+        }
+      ]
+    },
+    {
+      "Route": "js/basketChart.qdb3tvskus.js",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\basketChart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1085"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XjUEUGNQfKdXyQPNX8FMSepAJ/LifAF2N2Q7evvV1vE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 18:12:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qdb3tvskus"
+        },
+        {
+          "Name": "label",
+          "Value": "js/basketChart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XjUEUGNQfKdXyQPNX8FMSepAJ/LifAF2N2Q7evvV1vE="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.gef3zaap5m.js",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SERKgtTty1vsDxll+qzd4Y2cF9swY9BCq62i9wXJ9Uo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 18:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gef3zaap5m"
+        },
+        {
+          "Name": "label",
+          "Value": "js/chart.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SERKgtTty1vsDxll+qzd4Y2cF9swY9BCq62i9wXJ9Uo="
+        }
+      ]
+    },
+    {
+      "Route": "js/chart.js",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\chart.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SERKgtTty1vsDxll+qzd4Y2cF9swY9BCq62i9wXJ9Uo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 18:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SERKgtTty1vsDxll+qzd4Y2cF9swY9BCq62i9wXJ9Uo="
         }
       ]
     },
@@ -1148,6 +1974,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-P4ol2KMJc+2sNMpnc/PslW6I159RUMFNTb9yl1pSCQE="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_confusion_matrix_report.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_confusion_matrix_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJ/KzCQo1wLKJIKOzjE76ypkgJAP4dGT5y5WvZmuarc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJ/KzCQo1wLKJIKOzjE76ypkgJAP4dGT5y5WvZmuarc="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_confusion_matrix_report.spf71pfu72.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_confusion_matrix_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "80"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sJ/KzCQo1wLKJIKOzjE76ypkgJAP4dGT5y5WvZmuarc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "spf71pfu72"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/churn_confusion_matrix_report.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sJ/KzCQo1wLKJIKOzjE76ypkgJAP4dGT5y5WvZmuarc="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_feature_importance_report.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_feature_importance_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A208ewR3PJCkzBsacXWAAFaEvIfDpp195WhtfPxpCkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A208ewR3PJCkzBsacXWAAFaEvIfDpp195WhtfPxpCkA="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_feature_importance_report.d8twz9rrw5.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_feature_importance_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A208ewR3PJCkzBsacXWAAFaEvIfDpp195WhtfPxpCkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d8twz9rrw5"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/churn_feature_importance_report.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A208ewR3PJCkzBsacXWAAFaEvIfDpp195WhtfPxpCkA="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_household_risk_report.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_household_risk_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqr9wuzSsXdY3H+RXZHWRQswjnDlTTkWVxH9wOKLyC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqr9wuzSsXdY3H+RXZHWRQswjnDlTTkWVxH9wOKLyC8="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_household_risk_report.yvx30nausa.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_household_risk_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Tqr9wuzSsXdY3H+RXZHWRQswjnDlTTkWVxH9wOKLyC8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yvx30nausa"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/churn_household_risk_report.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Tqr9wuzSsXdY3H+RXZHWRQswjnDlTTkWVxH9wOKLyC8="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_summary_report.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_summary_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2K2FfpcbbMBUtf91cJfKCMf4Qphb/qx11t81ZyavWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2K2FfpcbbMBUtf91cJfKCMf4Qphb/qx11t81ZyavWM="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_summary_report.zzrlu98r1n.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_summary_report.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/2K2FfpcbbMBUtf91cJfKCMf4Qphb/qx11t81ZyavWM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzrlu98r1n"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/churn_summary_report.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/2K2FfpcbbMBUtf91cJfKCMf4Qphb/qx11t81ZyavWM="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_top_20_at_risk_households.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_top_20_at_risk_households.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"87ZRGEk3yY/sJPNe1ZqA61mVY7rcWxpNXr9XQ5nvdJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-87ZRGEk3yY/sJPNe1ZqA61mVY7rcWxpNXr9XQ5nvdJs="
+        }
+      ]
+    },
+    {
+      "Route": "reports/churn_top_20_at_risk_households.hzd5js9k9z.csv",
+      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_top_20_at_risk_households.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"87ZRGEk3yY/sJPNe1ZqA61mVY7rcWxpNXr9XQ5nvdJs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 22:41:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hzd5js9k9z"
+        },
+        {
+          "Name": "label",
+          "Value": "reports/churn_top_20_at_risk_households.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-87ZRGEk3yY/sJPNe1ZqA61mVY7rcWxpNXr9XQ5nvdJs="
         }
       ]
     }

@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\basket_association_rules.csv",
+      "PackagePath": "staticwebassets\\charts\\basket_association_rules.csv"
+    },
+    {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
       "PackagePath": "staticwebassets\\charts\\chart_1777080036.png"
     },
@@ -33,12 +37,56 @@
       "PackagePath": "staticwebassets\\charts\\chart_feature_influence_to_brand.png"
     },
     {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_feature_importance.png",
+      "PackagePath": "staticwebassets\\charts\\churn_feature_importance.png"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_probability_distribution.png",
+      "PackagePath": "staticwebassets\\charts\\churn_probability_distribution.png"
+    },
+    {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
       "PackagePath": "staticwebassets\\charts\\myfile.txt"
     },
     {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
+      "PackagePath": "staticwebassets\\charts\\top_association_rules.png"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_cross_sell_drivers.png",
+      "PackagePath": "staticwebassets\\charts\\top_cross_sell_drivers.png"
+    },
+    {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\basketChart.js",
+      "PackagePath": "staticwebassets\\js\\basketChart.js"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_confusion_matrix_report.csv",
+      "PackagePath": "staticwebassets\\reports\\churn_confusion_matrix_report.csv"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_feature_importance_report.csv",
+      "PackagePath": "staticwebassets\\reports\\churn_feature_importance_report.csv"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_household_risk_report.csv",
+      "PackagePath": "staticwebassets\\reports\\churn_household_risk_report.csv"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_summary_report.csv",
+      "PackagePath": "staticwebassets\\reports\\churn_summary_report.csv"
+    },
+    {
+      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\reports\\churn_top_20_at_risk_households.csv",
+      "PackagePath": "staticwebassets\\reports\\churn_top_20_at_risk_households.csv"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KrogerDataAnalytics.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
