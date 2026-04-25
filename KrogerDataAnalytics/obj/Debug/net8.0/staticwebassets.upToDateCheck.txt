@@ -1,4 +1,9 @@
 wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
+wwwroot\charts\chart_1777080036.png
+wwwroot\charts\chart_1777080072.png
+wwwroot\charts\chart_feature_influence_organic.png
+wwwroot\charts\chart_feature_influence_to_brand.png
+wwwroot\charts\myfile.txt
 wwwroot\favicon.png

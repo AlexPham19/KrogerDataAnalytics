@@ -16,6 +16,8 @@
         // Product Data
         public string? Department { get; set; }
         public string? Commodity { get; set; }
+        public string? Brand_type { get; set; }
+        public string? Natural_organic_flag { get; set; }
 
         // Household Data
         public bool? Loyalty_flag { get; set; } 

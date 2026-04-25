@@ -11,7 +11,7 @@ namespace KrogerDataAnalytics.Service
         {
             _dbFactory = dbFactory;
         }
-
+        
         public async Task<List<JoinedTransaction>> GetDataPullAsync()
         {
             using var context = _dbFactory.CreateDbContext();
@@ -33,6 +33,8 @@ namespace KrogerDataAnalytics.Service
                               Year = t.Year ?? 0,
                               Department = p.Department,
                               Commodity = p.Commodity,
+                              Brand_type = p.Brand_type,
+                              Natural_organic_flag = p.Natural_organic_flag,
                               Loyalty_flag = h.Loyalty_flag,
                               Age_range = h.Age_range,
                               Marital_status = h.Marital_status,
@@ -66,6 +68,8 @@ namespace KrogerDataAnalytics.Service
                               Year = t.Year ?? 0,
                               Department = p.Department,
                               Commodity = p.Commodity,
+                              Brand_type = p.Brand_type,
+                              Natural_organic_flag = p.Natural_organic_flag,
                               Loyalty_flag = h.Loyalty_flag,
                               Age_range = h.Age_range,
                               Marital_status = h.Marital_status,
