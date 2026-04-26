@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1350912c1e170ea46444b280c0825abca3a7113")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+649a9a2c7aa231f16f93b4b3dc7b3b3e95ee9f59")]
 [assembly: System.Reflection.AssemblyProductAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KrogerDataAnalytics")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
