@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uMrdBRENthJaFFE1X7Ob0uD+Ca4MwGsVZrUWqLPwvJE=",
+  "Hash": "4ZPEco8zLViDSjAah05nQX4bh/bOOWzs+sYry+92MJ8=",
   "Source": "KrogerDataAnalytics",
   "BasePath": "_content/KrogerDataAnalytics",
   "Mode": "Default",
@@ -143,48 +143,6 @@
       "OriginalItemSpec": "wwwroot\\charts\\basket_association_rules.csv"
     },
     {
-      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
-      "SourceId": "KrogerDataAnalytics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
-      "BasePath": "_content/KrogerDataAnalytics",
-      "RelativePath": "charts/chart_1777080036#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1ed81ty64r",
-      "Integrity": "ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\charts\\chart_1777080036.png"
-    },
-    {
-      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080072.png",
-      "SourceId": "KrogerDataAnalytics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
-      "BasePath": "_content/KrogerDataAnalytics",
-      "RelativePath": "charts/chart_1777080072#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "1ed81ty64r",
-      "Integrity": "ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\charts\\chart_1777080072.png"
-    },
-    {
       "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_feature_influence_organic.png",
       "SourceId": "KrogerDataAnalytics",
       "SourceType": "Discovered",
@@ -267,27 +225,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\charts\\churn_probability_distribution.png"
-    },
-    {
-      "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
-      "SourceId": "KrogerDataAnalytics",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\",
-      "BasePath": "_content/KrogerDataAnalytics",
-      "RelativePath": "charts/myfile#[.{fingerprint}]?.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\charts\\myfile.txt"
     },
     {
       "Identity": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
@@ -830,170 +767,6 @@
       ]
     },
     {
-      "Route": "charts/chart_1777080036.1ed81ty64r.png",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2486"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:20:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1ed81ty64r"
-        },
-        {
-          "Name": "label",
-          "Value": "charts/chart_1777080036.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E="
-        }
-      ]
-    },
-    {
-      "Route": "charts/chart_1777080036.png",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2486"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:20:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E="
-        }
-      ]
-    },
-    {
-      "Route": "charts/chart_1777080072.1ed81ty64r.png",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080072.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2486"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:21:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1ed81ty64r"
-        },
-        {
-          "Name": "label",
-          "Value": "charts/chart_1777080072.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E="
-        }
-      ]
-    },
-    {
-      "Route": "charts/chart_1777080072.png",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080072.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2486"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:21:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ycq5uTkn9toG6e8Jouz3sLR12ZUEfGMcRZnDGFYP83E="
-        }
-      ]
-    },
-    {
       "Route": "charts/chart_feature_influence_organic.56wty7mose.png",
       "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_feature_influence_organic.png",
       "Selectors": [],
@@ -1318,88 +1091,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-As75dnPPr7QvC1PQp58fthyiNPzSTmQpNIbETSeEj3o="
-        }
-      ]
-    },
-    {
-      "Route": "charts/myfile.5ipweew5fc.txt",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:24:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5ipweew5fc"
-        },
-        {
-          "Name": "label",
-          "Value": "charts/myfile.txt"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
-        }
-      ]
-    },
-    {
-      "Route": "charts/myfile.txt",
-      "AssetFile": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "0"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 01:24:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
         }
       ]
     },

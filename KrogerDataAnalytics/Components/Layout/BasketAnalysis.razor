@@ -24,8 +24,29 @@ else
 {
     <h4>Top Rules Chart</h4>
 
-    <canvas id="basketChart" height="500"></canvas>
+    <div class="row g-4">
+        <div class="col-lg-6">
+            <div class="card shadow border-0 h-100">
+                <div class="card-header bg-white py-3">
+                    <h5 class="mb-0 fw-bold">Top Association Rules</h5>
+                </div>
+                <div class="card-body text-center">
+                    <img src="charts/top_association_rules.png" alt="Churn Probability Distribution" class="img-fluid rounded mb-3" />                    
+                </div>
+            </div>
+        </div>
 
+        <div class="col-lg-6">
+            <div class="card shadow border-0 h-100">
+                <div class="card-header bg-dark text-white py-3">
+                    <h5 class="mb-0 fw-bold">Top Cross-sell Drivers</h5>
+                </div>
+                <div class="card-body">
+                    <img src="charts/top_cross_sell_drivers.png" alt="Feature Importance Graph" class="img-fluid rounded mb-3" />                    
+                </div>
+            </div>
+        </div>
+    </div>
     <hr />
 
     <h4>Association Rules Table</h4>

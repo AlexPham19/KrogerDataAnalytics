@@ -21,14 +21,6 @@
       "PackagePath": "staticwebassets\\charts\\basket_association_rules.csv"
     },
     {
-      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080036.png",
-      "PackagePath": "staticwebassets\\charts\\chart_1777080036.png"
-    },
-    {
-      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_1777080072.png",
-      "PackagePath": "staticwebassets\\charts\\chart_1777080072.png"
-    },
-    {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\chart_feature_influence_organic.png",
       "PackagePath": "staticwebassets\\charts\\chart_feature_influence_organic.png"
     },
@@ -43,10 +35,6 @@
     {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\churn_probability_distribution.png",
       "PackagePath": "staticwebassets\\charts\\churn_probability_distribution.png"
-    },
-    {
-      "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\myfile.txt",
-      "PackagePath": "staticwebassets\\charts\\myfile.txt"
     },
     {
       "Id": "C:\\Users\\phamq\\source\\repos\\KrogerDataAnalytics\\KrogerDataAnalytics\\wwwroot\\charts\\top_association_rules.png",
